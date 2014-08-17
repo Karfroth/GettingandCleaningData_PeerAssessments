@@ -27,12 +27,11 @@ Good luck!
 `run_analysis.R` file in this repo is solution. and `processed_data.txt` file is result of 5th instruction. It is needed to change name of extracted folder from **UCI HAR Dataset** to **Dataset**.
 
 ##How to use
-    1. Download and unzip [this data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in current working directory. After that, you should change folder name from **UCI HAR Dataset** to **Dataset**.
-    2. Download `run_analysis.R` file in current working directory.
-    3. Type `source("run_analysis.R")`. It will process automatically.
-    4. Variable `tidydata` is result of step 4. And You can find `processed_data.txt` in working directory after use script file. It contains result of 5th instruction.
+    * Download and unzip [this data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in current working directory. After that, you should change folder name from **UCI HAR Dataset** to **Dataset**.
+    * Download `run_analysis.R` file in current working directory.
+    * Type `source("run_analysis.R")`. It will process automatically.
+    * Variable `tidydata` is result of step 4. And You can find `processed_data.txt` in working directory after use script file. It contains result of 5th instruction.
 
 If you want to check final result, just check `processed.data` variable in R after processing of data, or just type `read.table("processed_data.txt")`.
 
 [1]: http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/
-[2]: 
