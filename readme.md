@@ -34,6 +34,9 @@ Good luck!
 
 If you want to check final result, just check `processed.data` variable in R after processing of data, or just type `read.table("processed_data.txt")`.
 
+###CodeBook
+`Codebook.md` describes codes that used in this process. Check that file.
+
 ##Result
 By using script, you will have processed data file name `processed_data.txt`. This file include datas that calculated each features by both subject and activity. And you can also find variable `tidydata`. It is dataset took the means and standard deviations from raw data.
 
