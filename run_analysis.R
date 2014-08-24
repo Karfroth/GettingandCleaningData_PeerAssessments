@@ -36,4 +36,4 @@ tidydata<-cbind(subject, activity, data)
 #Q5.
 processed.data<-aggregate(tidydata[3:68], by=c(list(tidydata$Subject),list(tidydata$Activity)), FUN=mean)
 names(processed.data)[1:2]<-c("Subject", "Activity")
-write.table(processed.data, "processed_data.txt")
+write.table(processed.data, "processed_data.txt", row.name=FALSE)
